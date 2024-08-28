@@ -13,6 +13,6 @@ int main(){
         d[s[i]]++;
         t1 = max(t1, d[s[i]]);
     }
-    if(t1 <= (n - 1) / (2  + 1)) cout << "YES";
+    if(t1 <= (s.size() - 1) / 2  + 1) cout << "YES";
     else cout << "NO";
 }
